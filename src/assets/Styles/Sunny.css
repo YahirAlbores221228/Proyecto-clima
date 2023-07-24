@@ -1,7 +1,8 @@
 .container-sunny, .Container-cloudy
-,.Container-rainy,.container-mostry{
+,.Container-rainy{
 display: flex;
 justify-content: space-evenly;
+font-size: 1rem;
 align-items: center;
 color: #FFFFFF;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Soleado from "../../assets/Img/Soleado.png" 
 import Nublado from "../../assets/Img/lluvioso.png"
-import Casisoleado from "../../assets/Img/nube.png";
+import Casisoleado from "../../assets/Img/casisoleado.png";
 import Nube from "../../assets/Img/nube.png";
 import moment from 'moment';
 import "../../assets/Styles/Ladingclima.css"
@@ -17,30 +17,7 @@ import "../../assets/Styles/Ladingclima.css"
       descripcion: 'Parcialmente nublado',
       imagen: Casisoleado,
     },
-  {
-      temperatura: '5°',
-      descripcion: 'Soleado',
-      imagen: Nublado,
-    },
-   
- {
-      temperatura: '29°',
-      descripcion: 'Soleado',
-      imagen: Soleado,
-    },
-    {
-      temperatura: '15°',
-      descripcion: 'Parcialmente nublado',
-      imagen: Casisoleado,
-    },
-  {
-      temperatura: '5°',
-      descripcion: 'Soleado',
-      imagen: Nublado,
-    },
-   
   ];
-
 const Image = styled.img`
   width: 10%;
   height: 10%;
@@ -54,26 +31,22 @@ const Table = styled.table`
 const Th = styled.th`
   background-color: #007bff;
   color: white;
-
 `;
-
 const Td = styled.td`
   padding: 20px;
   border-bottom: 1px solid black;
   font-size: 18px;
   color: white;
 `;
-
-
 const currentDate = moment().format('DD MMMM YYYY');
 
 const Tabla = () => {
   const getImageByTemperature = (temperature) => {
-    if (temperature >= 25) {
+    if (50>= 25) {
       return Soleado;
-    } else if (temperature>= 15) {
+    } else if (16>= 15) {
       return Casisoleado;
-    } else if (temperature>= 5) {
+    } else if (8>= 5) {
       return Nublado;
     } else {
       return Nube;

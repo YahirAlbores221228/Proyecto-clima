@@ -11,7 +11,7 @@ function Cloudy() {
 <h2>Cloudy</h2>
 </div>
 <div>
-<h2>9º</h2>
+<h2>20º</h2>
 </div>
 </div>
 </>

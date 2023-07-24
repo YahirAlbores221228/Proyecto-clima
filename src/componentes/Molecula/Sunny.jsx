@@ -11,7 +11,7 @@ function Sunny() {
 <h2>Sunny</h2>
 </div>
 <div>
-<h2>23º</h2>
+<h2>30º</h2>
 </div>
 </div>
 </>

@@ -6,11 +6,11 @@ function Tem() {
 <>
 <div className="Container-temp">
 <div>
-<Temp>Humedad: </Temp>
+<Temp>Humedad</Temp>
 <Gradostemp>12ºC</Gradostemp>
 </div>
 <div>
-<Temp>Precision: </Temp>
+<Temp>Precision</Temp>
 <Gradostemp>42ºC</Gradostemp>
 </div>
 </div>

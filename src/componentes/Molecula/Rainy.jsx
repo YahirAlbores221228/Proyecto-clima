@@ -11,7 +11,7 @@ function Rainy() {
 <h2>Rainy</h2>
 </div>
 <div>
-<h2>15º</h2>
+<h2>10º</h2>
 </div>
 </div>
 </>
